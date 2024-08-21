@@ -1,0 +1,7 @@
+nss-altfiles-config
+*.so*
+*.o
+.*.sw[op]
+glibc-*/
+glibc-*.tar.xz
+config.mk
