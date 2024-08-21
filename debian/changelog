@@ -1,4 +1,10 @@
-template-repository (1.0-1) unstable; urgency=medium
+nss-altfiles (2.23.0-0deepin1) unstable; urgency=medium
+
+  * Update nss-altfiles to 2.23.0
+
+ -- xml <xiamengliang@uniontech.com>  Tue, 20 Aug 2024 10:41:47 +0800
+
+nss-altfiles (1.0-1) unstable; urgency=medium
 
   * Initial release
 

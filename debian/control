@@ -1,15 +1,15 @@
-Source: template-repository
+Source: nss-altfiles
 Section: unknown
 Priority: optional
 Maintainer: Tsic404 <liuheng@deepin.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Homepage: https://github.com/flatcar/nss-altfiles
+Vcs-Browser: https://github.com/deepin-community/nss-altfiles
+Vcs-Git: https://github.com/deepin-community/nss-altfiles.git
 
-Package: template-repository
+Package: nss-altfiles
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: NSS module to look up from files in /usr/lib as well
+ This is a NSS module which can read user information from files in the same format as /etc/passwd and /etc/group stored in an alternate location (/lib by default).
